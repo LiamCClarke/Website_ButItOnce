@@ -11,11 +11,11 @@ const heroTop = {
 </script>
 
 <template>
-    <div class="main-container">
+    <div class="content-container">
         <div class="main-side-panel">
 
         </div>
-        <div class="main-content">
+        <div class="content">
             <AppHero v-bind="heroTop"/>
             <AppFeatures />
         </div>
@@ -24,18 +24,3 @@ const heroTop = {
         </div>
     </div>
 </template>
-
-<style scoped>
-.main-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.main-content {
-    flex-basis: var(--layout-width);
-    max-width: var(--layout-width);
-    padding: 0 16px;
-}
-</style>

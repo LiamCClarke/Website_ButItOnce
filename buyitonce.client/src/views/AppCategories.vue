@@ -4,7 +4,7 @@
             <div class="grid-child kitchenware">
                 <h1 class="title">Kitchenware</h1>
                 <ul>
-                    <li><router-link :to="{ name: 'Home' }">Utensils</router-link></li>
+                    <li><router-link :to="{ name: 'SubCategory' }">Utensils</router-link></li>
                     <li><router-link :to="{ name: 'Home' }">Pots & Pans</router-link></li>
                     <li><router-link :to="{ name: 'Home' }">Food Preperation</router-link></li>
                     <li><router-link :to="{ name: 'Home' }">Serveware</router-link></li>
