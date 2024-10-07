@@ -5,11 +5,16 @@ namespace BuyItOnce.Server.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: /Home/Welcome
-        // Requires using System.Text.Encodings.Web;
-        public string Welcome(string name, int ID = 1)
+        // GET: /Home/
+        public string Index()
         {
-            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+            return "This is my default action...";
+        }
+        //
+        // GET: /Home/Welcome/
+        public string Welcome()
+        {
+            return "This is the welcome action method...";
         }
     }
 }
